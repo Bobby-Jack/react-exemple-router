@@ -1,9 +1,16 @@
-# React + Vite
+# Exemple react ROUTER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. installation
+   `` `npm install react-router-dom` ``
+2. BrowserRouter dans le main.jsx
+   ![image](https://github.com/user-attachments/assets/c729c20d-30b2-41b9-9717-29daa621b6aa)
 
-Currently, two official plugins are available:
+3. Routes et Route dans le App.jsx
+   ![image](https://github.com/user-attachments/assets/e10c1e3f-185e-478e-b9ba-a97e1d029db1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# react-exemple-router
+- <Route/> a besoin de deux props: "path", le chemin dans l'url et "element", le composant à retourner
+
+   
+
+
+
