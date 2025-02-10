@@ -1,4 +1,4 @@
-# Exemple react ROUTER
+# Exemple react ROUTER (by Rifi Agznay Ryad)
 
 ## 1. installation
 - `` npm install react-router-dom ``
