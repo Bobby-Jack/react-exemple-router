@@ -1,0 +1,17 @@
+{
+    "margeritta":{
+        "name" : "margeritta",
+        "price" : 8.5,
+        "rank" : 3
+    },
+    "hawai":{
+        "name" : "hawai",
+        "price" : 10.5,
+        "rank" : 3
+    },
+    "foret":{
+        "name" : "foret",
+        "price" : 12.5,
+        "rank" : 3
+    }
+}

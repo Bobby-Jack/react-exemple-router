@@ -29,6 +29,28 @@ export default function NavBar() {
                     About
                     </NavLink>
             </li>
+            <li>
+
+                    <NavLink
+                    to="/contact"
+                    className={({isActive}) =>
+                        "nav-link" + (isActive ? " selected" : "")
+                    }
+                    >
+                    Contact
+                    </NavLink>
+            </li>
+            <li>
+
+                    <NavLink
+                    to="/allPizza"
+                    className={({isActive}) =>
+                        "nav-link" + (isActive ? " selected" : "")
+                    }
+                    >
+                    All Pizza
+                    </NavLink>
+            </li>
         </ul>
     </div>
   )
