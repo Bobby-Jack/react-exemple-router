@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-
+import "./NavBar.css"
 
 export default function NavBar() {
     
@@ -9,11 +9,25 @@ export default function NavBar() {
     <div>
         <ul>
             <li>
-                <NavLink className={({isActive})=>{isActive ? "active": ""}} to={"/"}>HOME</NavLink>
+                    <NavLink
+                    to="/"
+                    className={({isActive}) =>
+                        "nav-link" + (isActive ? " selected" : "")
+                    }
+                    >
+                    Home
+                    </NavLink>
             </li>
             <li>
 
-                <NavLink to={"/about"}>About</NavLink>
+                    <NavLink
+                    to="/about"
+                    className={({isActive}) =>
+                        "nav-link" + (isActive ? " selected" : "")
+                    }
+                    >
+                    About
+                    </NavLink>
             </li>
         </ul>
     </div>
